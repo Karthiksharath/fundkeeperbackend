@@ -1,0 +1,54 @@
+
+schema : user
+
+attributes :  username,password,email
+
+1) API for creating a new user
+
+      url : http://127.0.0.1:8000/api/register/
+
+      method : post
+
+      body:{username,password,email}
+
+      Authentication : nill
+
+      status : completed
+
+
+2) API for checking token
+
+
+      url : http://127.0.0.1:8000/api/token/ 
+
+      method : post
+
+      body:{username,password}
+
+      Authentication : nill
+
+      status : pending
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+schema = expense
+
+attributes : title amount category priority owner
+
+2 API for listing all expenses
+
+      url : http://127.0.0.1:8000/api/expenses/ 
+
+      method = get
+
+      body : nill 
+
+      Authorization : nill
+
+      status : pending
+
+
+
+
+
+
